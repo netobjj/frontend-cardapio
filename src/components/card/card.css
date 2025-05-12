@@ -1,0 +1,44 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 0;
+}
+
+.card img {
+    border-radius: 8px 9px 0px 0px;
+    width: 250px;
+    height: 200px;
+}
+
+.title,
+.description {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.description {
+    padding-inline: 15px;
+    font-size: 15px;
+}
+
+.title {
+    padding-inline: 20px;
+}
+
+.price {
+    color: rgb(31, 184, 1);
+    size: 20px;
+    font-size: x-large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.btn-secondary {
+    display: flex;
+    justify-content: center;
+}
